@@ -1,0 +1,84 @@
+.main div {
+    margin-top: 300px;
+}
+
+.main div h1 {
+    margin-top: -10px;
+}
+
+.clear-todos {
+    margin-left: 280px;
+    cursor: pointer;
+    border: 2px solid #ec5252;
+}
+
+.edit-todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 60px;
+}
+
+.edit-todo div {
+    margin: 0px;
+    display: flex;
+}
+
+.edit-todo div button {
+    width: 24px;
+    height: 24.8px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 2px 3px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.edit-todo input {
+    width: 70%;
+}
+
+.edit-todo div button:hover {
+    color: rgb(116, 212, 131);
+}
+
+.edit-todo div button~button:hover {
+    color: rgb(222, 99, 99);
+}
+
+.no-todo-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 118px;
+    margin: 0px !important;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 118px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #999696;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,15 @@
+- [X] Inicializar proyecto con vite
+- [X] Añadir linter para Typescript + React
+- [X] Añadir estilos del TodoMVC
+- [X] Listar todos los TODOs
+- [X] Poder borrar un TODO
+- [X] Marcar TODO como completado
+- [X] Añadir forma de filtrar TODOs (Footer)
+- [X] Mostar numero de TODOs pendientes (Footer)
+- [X] Añadir forma de borrar TODOs completados
+- [X] Crear un Header con input (Header)
+- [X] Crear un TODO (Header)
+- [] Poder editar el texto de un TODO (Doble click)
+- [] Añadir animaciones con AutoAnimate
+- [X] Pasar a Reducer
+- [X] Sincronizar con el backend
